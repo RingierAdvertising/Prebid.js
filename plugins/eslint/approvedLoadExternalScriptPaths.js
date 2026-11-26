@@ -41,6 +41,8 @@ const APPROVED_LOAD_EXTERNAL_SCRIPT_PATHS = [
   'modules/tncIdSystem.js',
   'modules/ftrackIdSystem.js',
   'modules/id5IdSystem.js',
+  // Shared by the Alloy UserId submodule and RTD module
+  'libraries/alloyUtils',
   // Test files
   '**/*spec.js',
   '**/*spec.ts',

@@ -162,6 +162,14 @@ pbjs.setConfig({
                   expires: 30
               }
         }, {
+            name: "alloyId",
+            params: {
+                sdk: {
+                    appId: "examplech_de_web" // provided by Ringier Advertising
+                }
+            },
+            bidders: ["ringier"]
+        }, {
             name: "gemiusId"
         }, {
              name: "kpuid",
